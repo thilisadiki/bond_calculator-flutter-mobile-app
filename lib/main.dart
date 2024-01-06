@@ -99,7 +99,7 @@ class MyHomePageState extends State<MyHomePage> {
             ),
             const SizedBox(height: 20),
             Text(
-              'Monthly Payment: \$${monthlyPayment.toStringAsFixed(2)}',
+              'Monthly Payment: \R${monthlyPayment.toStringAsFixed(2)}',
               style: const TextStyle(fontSize: 18),
             ),
             const SizedBox(height: 20),
