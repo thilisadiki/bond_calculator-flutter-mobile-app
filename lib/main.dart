@@ -74,6 +74,8 @@ class MyHomePageState extends State<MyHomePage> {
               'Mortgage / Bond Calculator',
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
+            const Text('See what your total monthly repayment amount would be on your new home.',style: TextStyle(fontSize: 16),
+            ),
             const SizedBox(height: 20),
             TextFormField(
               controller: principalController,
@@ -99,7 +101,7 @@ class MyHomePageState extends State<MyHomePage> {
             ),
             const SizedBox(height: 20),
             Text(
-              'Monthly Payment: \R${monthlyPayment.toStringAsFixed(2)}',
+              'Monthly Payment: R ${monthlyPayment.toStringAsFixed(2)}',
               style: const TextStyle(fontSize: 18),
             ),
             const SizedBox(height: 20),
